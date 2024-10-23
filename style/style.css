@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+}
+
+header nav {
+  width: 90%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 15px 0;
+  border-bottom: 1px solid grey;
+}
+
+header nav a {
+  text-decoration: none;
+  color: rgb(220, 220, 220);
+}
+
+header nav ul {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header nav ul a {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.hero_section {
+  width: 100%;
+  height: 100vh;
+  background: url("https://images.pexels.com/photos/8850632/pexels-photo-8850632.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  background-size: cover;
+}
+
+.filter_color {
+  width: 100%;
+  height: 100vh;
+  background-color: #1d254ae0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30%;
+}
+
+.filter_color h1 {
+  color: aliceblue;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.filter_color p {
+  color: rgb(154, 154, 154);
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.filter_color button {
+  padding: 10px 25px;
+  background-color: rgb(233, 32, 72);
+  color: white;
+  border: none;
+}
+
+.filter_color button:hover {
+  background-color: rgb(195, 28, 61);
+  cursor: pointer;
+}
+
+.features_section {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 50px;
+  padding: 60px;
+  text-align: center;
+}
+
+.features_section .box i {
+  font-size: 50px;
+  padding: 15px;
+  color: rgb(255, 53, 53);
+}
+
+.features_section .box h3 {
+  text-transform: uppercase;
+  padding: 10px 0px;
+}
+
+.features_section .box p {
+  color: grey;
+}
