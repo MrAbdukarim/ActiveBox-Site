@@ -9,4 +9,4 @@ Bu repositoryda HTML va CSS yordamida quyidagi rasmda ko'rsatilgan sahifalarni y
 Repositorydagi fayllarni yuklab olib yoki GitHub sahifasida to'g'ridan-to'g'ri ochib ko'rishingiz mumkin.
 
 ## Vazifa berilgan rasm:
-[ActiveBox](./img/ActiveBox.jpg).
+[ActiveBox yozuvini bosing.](./img/ActiveBox.jpg)
